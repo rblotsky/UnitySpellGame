@@ -1,0 +1,20 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 156bd7c5e0c369a4a8e7c745482ff6b1, type: 3}
+  m_Name: MainDataManager
+  m_EditorClassIdentifier: 
+  playerStatsAsset: {fileID: 11400000, guid: 3e0a878e8ca41ae46805b55ad3b3624b, type: 2}
+  playerInventoryAsset: {fileID: 11400000, guid: dfc73b208a563ae4a81af19647337cfc,
+    type: 2}
+  playerSpellsAsset: {fileID: 11400000, guid: 5b4ed6a01342be74a8fb085c4e8fbaca, type: 2}
+  startSceneName: GameStartScene
+  gameStartQuestUpdate: StartNewSave

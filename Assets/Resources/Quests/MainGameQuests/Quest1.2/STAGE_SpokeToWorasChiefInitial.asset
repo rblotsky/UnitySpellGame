@@ -1,0 +1,40 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 38c73c770703fc248a18c4ac41d88714, type: 3}
+  m_Name: STAGE_SpokeToWorasChiefInitial
+  m_EditorClassIdentifier: 
+  id: 31
+  transitionToThisStage: Speak to the Woras Chief in the settlement.
+  completionStatus: 0
+  isFinishStage: 0
+  questReference: {fileID: 11400000, guid: 886c3d6a776081f48bd171f90b12776a, type: 2}
+  stageTransitions:
+  - requiredEvent: ITEM_PICKUP_QUESTITEM_LexaiBurialTablet
+    newStage: {fileID: 11400000, guid: 235020637391d354e9fc85df6ffa73a6, type: 2}
+    displayToPlayer: 1
+    transitionRequirements:
+      requirementOperator: 0
+      requirements: []
+    locationUpdates: []
+    tradeUpdates: []
+    transitionDialogue: {fileID: 0}
+  - requiredEvent: ENTER_AixayenBurialSite
+    newStage: {fileID: 11400000, guid: 3f7a2325de36b7b4a8424cc35dd39f1e, type: 2}
+    displayToPlayer: 1
+    transitionRequirements:
+      requirementOperator: 0
+      requirements: []
+    locationUpdates: []
+    tradeUpdates: []
+    transitionDialogue: {fileID: 0}
+  dialogueRequestListeners: []
+  mapLocationRequestListeners: []

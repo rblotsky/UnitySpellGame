@@ -1,0 +1,30 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1d6876870b3b15748871195430950fd1, type: 3}
+  m_Name: DonutUsable
+  m_EditorClassIdentifier: 
+  id: 55
+  displayName: Donut
+  baseDescription: A weaponized donut!
+  displaySprite: {fileID: 21300000, guid: 5d78363c35945ab4985d3e7accf1758b, type: 3}
+  isUsable: 1
+  canDrop: 1
+  itemType: 8
+  dropOffset: {x: 1, y: 0.5, z: 1}
+  dropItem: {fileID: 730529116724066023, guid: a5954805c3a30ec44accc6d41cdd0af6, type: 3}
+  elements:
+    healthInstant: 0
+    healthChange: 0
+    speedForDuration: 0
+    effectDuration: 0
+  attackRange: 2
+  damageTypes: 0100000002000000

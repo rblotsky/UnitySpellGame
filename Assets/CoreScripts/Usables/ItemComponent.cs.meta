@@ -1,0 +1,16 @@
+fileFormatVersion: 2
+guid: f1539bed0bbdfd344992fd048355c0b9
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences:
+  - hoverCursor: {instanceID: 0}
+  - item: {instanceID: 0}
+  - nameTextUI: {instanceID: 0}
+  - nameTextPrefab: {fileID: 9150215671482306504, guid: 0a51e11bba16f8a499acfcf9a775852a,
+      type: 3}
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

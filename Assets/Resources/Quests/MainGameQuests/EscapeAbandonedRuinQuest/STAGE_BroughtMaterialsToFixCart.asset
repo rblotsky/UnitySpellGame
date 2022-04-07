@@ -1,0 +1,31 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 38c73c770703fc248a18c4ac41d88714, type: 3}
+  m_Name: STAGE_BroughtMaterialsToFixCart
+  m_EditorClassIdentifier: 
+  id: 17
+  transitionToThisStage: Bring the Cart Driver [3 Cart Piece] to fix the cart.
+  completionStatus: 0
+  isFinishStage: 0
+  questReference: {fileID: 11400000, guid: 79ea2b4ba8e638c4b90fc307844f4d44, type: 2}
+  stageTransitions:
+  - requiredEvent: ENTER_MainHubScene
+    newStage: {fileID: 11400000, guid: 1215ee360728b9744992a58cec65a5d9, type: 2}
+    displayToPlayer: 1
+    transitionRequirements:
+      requirementOperator: 0
+      requirements: []
+    locationUpdates: []
+    tradeUpdates: []
+    transitionDialogue: {fileID: 0}
+  dialogueRequestListeners: []
+  mapLocationRequestListeners: []

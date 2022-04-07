@@ -1,0 +1,25 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ec5a7f432dfda4c488a9fe128c5dcab1, type: 3}
+  m_Name: TestMap_TestingScene2Location
+  m_EditorClassIdentifier: 
+  id: 7
+  displayName: TestingScene2
+  description: The second testing scene, home of the Blue Sphere.
+  defaultIsVisible: 1
+  defaultIsUsable: 1
+  icon: {fileID: 0}
+  sceneTransfers:
+  - transferName: TestingScene2Base
+    newSceneName: TestingScene2
+    travelSceneName: TestingTravelScene
+    travelDialogue: {fileID: 11400000, guid: 109b5ac7e4ec684459617ff28d78c253, type: 2}

@@ -1,0 +1,34 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 38c73c770703fc248a18c4ac41d88714, type: 3}
+  m_Name: STAGE_WastedTimeAtRuin
+  m_EditorClassIdentifier: 
+  id: 32
+  transitionToThisStage: Search for the [Burial Tablet] at the Aixayen burial site.
+  completionStatus: 0
+  isFinishStage: 0
+  questReference: {fileID: 11400000, guid: 886c3d6a776081f48bd171f90b12776a, type: 2}
+  stageTransitions:
+  - requiredEvent: ITEM_PICKUP_QUESTITEM_LexaiBurialTablet
+    newStage: {fileID: 11400000, guid: 235020637391d354e9fc85df6ffa73a6, type: 2}
+    displayToPlayer: 1
+    transitionRequirements:
+      requirementOperator: 0
+      requirements: []
+    locationUpdates: []
+    tradeUpdates: []
+    transitionDialogue: {fileID: 0}
+  dialogueRequestListeners: []
+  mapLocationRequestListeners:
+  - expectedRequest: LOCATION_MainGameMap_AixayenBurialSite
+    addStageMarker: 1
+    infoPoints: []

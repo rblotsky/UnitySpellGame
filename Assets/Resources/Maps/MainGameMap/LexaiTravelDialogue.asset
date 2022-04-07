@@ -1,0 +1,27 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c49a4f17553d42f4dacd01cbcaee3424, type: 3}
+  m_Name: LexaiTravelDialogue
+  m_EditorClassIdentifier: 
+  speakingNPC: Cart Driver
+  lines:
+  - Heading to the Lexai site, I see.
+  - Lexai is a real old city, you know. The burial site here is actually the oldest
+    one we've found!
+  - Back when I was with another nomad group, we set up camp here for a few days.
+    Let me tell you, <i>never</i> set up camp in an ancient burial site.
+  - Hah, you're probably getting bored already. Well, here we are! Hop back on whenever
+    you're ready to go back.
+  onFinishQuestUpdate: 
+  OnDialogueFinish:
+    m_PersistentCalls:
+      m_Calls: []

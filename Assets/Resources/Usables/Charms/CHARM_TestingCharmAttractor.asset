@@ -1,0 +1,30 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4062a115e4e7c8948b0ae99409d96eee, type: 3}
+  m_Name: CHARM_TestingCharmAttractor
+  m_EditorClassIdentifier: 
+  id: 42
+  displayName: 
+  baseDescription: 
+  displaySprite: {fileID: 21300000, guid: c35bacf4d6428ad48afa66ddb3eba2f5, type: 3}
+  isUsable: 1
+  canDrop: 1
+  itemType: 7
+  dropOffset: {x: 1, y: 0.5, z: 1}
+  dropItem: {fileID: 6266559640709569384, guid: 5f708fa7c0871cc4bbb365db18b40ce2,
+    type: 3}
+  charmPrefab: {fileID: 1074288057099373143, guid: a99d372b1afe74a41aad8f1c28a6383b,
+    type: 3}
+  attractor: 1
+  distance: 5
+  placeDistance: 1
+  duration: 5

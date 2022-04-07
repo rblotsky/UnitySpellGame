@@ -1,0 +1,33 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 31b44c3dd86f1fc498cfe8c67eb3dd4a, type: 3}
+  m_Name: JEFF_POTIONMERCHANT_SellInitial
+  m_EditorClassIdentifier: 
+  id: 13
+  itemTypePairs:
+  - percentValue: 40
+    pairedObject: 9
+    rangeMinValue: 346.1375
+    rangeMaxValue: 746.1375
+  - percentValue: 30
+    pairedObject: 0
+    rangeMinValue: 136.90607
+    rangeMaxValue: 436.90607
+  - percentValue: 30
+    pairedObject: 0
+    rangeMinValue: 623.882
+    rangeMaxValue: 923.882
+  usablePairs:
+  - percentValue: 100
+    pairedObject: {fileID: 11400000, guid: cee886f583cd54346a83185638acc621, type: 2}
+    rangeMinValue: 0.94729614
+    rangeMaxValue: 1000.94727

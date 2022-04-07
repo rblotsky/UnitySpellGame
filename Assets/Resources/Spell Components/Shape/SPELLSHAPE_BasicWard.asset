@@ -1,0 +1,32 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fcacb21686e2ebd42bedeaf1231427a4, type: 3}
+  m_Name: SPELLSHAPE_BasicWard
+  m_EditorClassIdentifier: 
+  id: 41
+  spellManagerDisplaySprite: {fileID: 0}
+  spellPrefabObject: {fileID: 2281404796736141904, guid: a302c5377e5b8ac46a53271c6ce7b900,
+    type: 3}
+  baseProperties:
+    duration: 5
+    radius: 5
+    amount: 0
+    speed: 0
+    elements:
+      healthInstant: 0
+      healthChange: 0
+      speedForDuration: 0
+      effectDuration: 0
+    damagedEntities: 01000000
+    keywords: []
+  spellShapeName: Circular Ward
+  spellShapeDescription: A circular ward that damages entities within it over time.

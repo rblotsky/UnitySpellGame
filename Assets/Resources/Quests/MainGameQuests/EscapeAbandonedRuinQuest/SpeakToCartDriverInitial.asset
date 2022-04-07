@@ -1,0 +1,27 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0e37a9eefc94590449242dbfd0c8df6d, type: 3}
+  m_Name: SpeakToCartDriverInitial
+  m_EditorClassIdentifier: 
+  speakingNPC: Cart Driver
+  lines:
+  - Well, looks like we're stuck here.
+  - I TOLD you those beasts didn't look friendly, didn't I?!
+  - You just HAD to try fighting them, without any weapons, huh?!
+  - AND now they've eaten the wheels of my cart. Just fantastic. I doubt there's
+    any way to get the wheel pieces back aside from killing them, SOMEHOW.
+  - Go figure something out, why don't you. I'm sure that temple's COMPLETELY SAFE
+    and has EVERYTHING YOU NEED to kill the stupid things and get my wheels back.
+  OnDialogueFinish:
+    m_PersistentCalls:
+      m_Calls: []
+  itemsToGiveOnFinish: []

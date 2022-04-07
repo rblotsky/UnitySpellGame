@@ -1,0 +1,29 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c49a4f17553d42f4dacd01cbcaee3424, type: 3}
+  m_Name: AixayenTravelDialogue
+  m_EditorClassIdentifier: 
+  speakingNPC: Cart Driver
+  lines:
+  - Aixayen, here we come!
+  - Aixayen isn't really that big of a place. In the ancient days, it was probably
+    just as minor as it is now.
+  - Not much more than some farms, a town center, and this burial site we're going
+    to.
+  - It isn't much different from the other village burial sites, too. Only one level,
+    since there was no nobility here, and very little is underground. It's mostly
+    open air - at least, ever since the roof collapsed.
+  - Here we are! Let me know when you're ready to head back to the settlement.
+  onFinishQuestUpdate: 
+  OnDialogueFinish:
+    m_PersistentCalls:
+      m_Calls: []

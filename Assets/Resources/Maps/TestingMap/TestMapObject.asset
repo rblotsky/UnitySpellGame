@@ -1,0 +1,21 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bd0551c6f19293d4bb13f2c86cba3dc0, type: 3}
+  m_Name: TestMapObject
+  m_EditorClassIdentifier: 
+  id: 9
+  mapName: Test Map
+  mapPrefab: {fileID: 4177913844661663770, guid: e9e252e91eabfb24eb92854d62d33d69,
+    type: 3}
+  locationsOnMap:
+  - {fileID: 11400000, guid: 08c07f64b29126c4ca68b6b5d8c75e3f, type: 2}
+  - {fileID: 11400000, guid: 2eb4bb7288c5acb4c9776ad616f793a8, type: 2}

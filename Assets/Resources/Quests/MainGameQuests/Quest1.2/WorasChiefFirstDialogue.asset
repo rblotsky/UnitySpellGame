@@ -1,0 +1,29 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0e37a9eefc94590449242dbfd0c8df6d, type: 3}
+  m_Name: WorasChiefFirstDialogue
+  m_EditorClassIdentifier: 
+  speakingNPC: Woras Chief
+  lines:
+  - You're back! Finally!
+  - Well, did you find the [Burial Tablet] over at that ruin?
+  - No? Seriously, it wasn't there?
+  - Not good.. not good at all. We need this tablet..
+  - Okay, I'll cross that off the list. We've got 2 more ruins left to search. It
+    HAS to be in one of those two.
+  - Head to those ruins, and look for the [Burial Tablet]. The only way we can make
+    any more progress in this expedition is with that tablet.
+  onFinishQuestUpdate: 
+  OnDialogueFinish:
+    m_PersistentCalls:
+      m_Calls: []
+  itemsToGiveOnFinish: []

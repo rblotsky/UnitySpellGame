@@ -1,0 +1,31 @@
+fileFormatVersion: 2
+guid: 8ba760b97afe0ce40ae6319a36a141c7
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences:
+  - objectCombatEntity: {instanceID: 0}
+  - objectCollider: {instanceID: 0}
+  - objectRigidbody: {instanceID: 0}
+  - soundPlayer: {instanceID: 0}
+  - attackNotifications: {instanceID: 0}
+  - dataDisplayerPrefab: {fileID: 9150215671482306504, guid: d85a893fa3a6e8b4dbf0823c4986f04f,
+      type: 3}
+  - shatteredObject: {fileID: 1964593645539178789, guid: bdb6cfcaee7d1a2479727e23b75174f6,
+      type: 3}
+  - deathParticles: {fileID: 5807664953932774769, guid: 7bc06c98f6eeb9548b6d4af455896a11,
+      type: 3}
+  - attackApplyParticles: {fileID: 5807664953932774769, guid: 905bdc05f472e694281816c8dbacbf29,
+      type: 3}
+  - attackSpeedEffectParticles: {fileID: 5807664953932774769, guid: b7c440011eb88be4eb5a931af494945c,
+      type: 3}
+  - attackPoisonEffectParticles: {fileID: 5807664953932774769, guid: a528375f91d4cfa46838b81172914b95,
+      type: 3}
+  - effectApplySound: {fileID: 11400000, guid: 905b1c6c2e8feb44b856bf716d609187, type: 2}
+  - deathSound: {fileID: 11400000, guid: 79939fdcd9c85684aa2f14220646d047, type: 2}
+  - ambientSound: {fileID: 11400000, guid: 6e32355596777584ab590eefcebe60de, type: 2}
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

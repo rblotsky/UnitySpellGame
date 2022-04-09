@@ -1,6 +1,8 @@
 ## UnitySpellGame
 An old C# RPG that was enormously over-scoped. A short proof-of-concept is playable.
 
+**Last Updated:** November 2021
+
 # Purpose
 This project was mostly used as a method of learning programming, and a lot of the features exist simply because I thought it would be fun to make them.
 

@@ -48,4 +48,4 @@ These systems have sub-systems and potentially sub-subsystems that allow them to
   * Additionally, it manages all the custom game-related assets in the game to ensure that they all have constant, unique identifiers.
 
 # Running the Project
-As of now, there is no way to run the project except to load it into Unity, and create a build from there. A compiled version may be added shortly.
+As of now, there is no way to run the project except to load it into Unity, and create a build from there. A compiled version will not be added.
